@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.gameBoard{
+  box-sizing: border-box;
+  position: relative;
+  margin: 9vh auto;
+  width: 80vw;
+  height: 80vh;
+  border: 2px solid black
+}
+
+.food{
+  position: absolute;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  background-color: brown;
+}
+
+.pacmen{
+  background-image: url('./components/img/pacmen.png');
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  transition: all .1s linear;
+}
